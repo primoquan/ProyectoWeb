@@ -18,9 +18,7 @@
 - [Modelo de Datos](#-modelo-de-datos)
 - [API Endpoints](#-api-endpoints)
 - [Prototipo](#-prototipo)
-- [Instalación y Configuración](#-instalación-y-configuración)
 - [Roadmap](#️-roadmap)
-- [Contribuir](#-contribuir)
 - [Licencia](#-licencia)
 
 ---
@@ -226,7 +224,6 @@ POST   /api/v1/suscripciones/cancelar        # Cancelar suscripción
 GET    /api/v1/suscripciones/estado          # Estado actual
 ```
 
-📄 **Documentación completa de API**: Ver [`Proyecto Final_Luis Quan.pdf`]
 ---
 
 ## 🎨 Prototipo
@@ -247,120 +244,35 @@ GET    /api/v1/suscripciones/estado          # Estado actual
 
 ---
 
-## 🚀 Instalación y Configuración
-
-### Prerrequisitos
-```bash
-- Node.js 18+ 
-- PostgreSQL 16+
-- npm o yarn
-```
-
-### 1. Clonar el repositorio
-```bash
-git clone https://github.com/primoquan/ProyectoWeb
-cd conectapro-guatemala
-```
-
-### 2. Configurar variables de entorno
-
-Crea un archivo `.env` en la raíz del proyecto:
-
-```env
-# Database
-DATABASE_URL="postgresql://user:password@localhost:5432/conectapro"
-DIRECT_URL="postgresql://user:password@localhost:5432/conectapro"
-
-# Authentication
-JWT_SECRET="tu-secret-key-super-segura"
-JWT_EXPIRES_IN="7d"
-
-# NeoNet (Pasarela de Pagos Guatemala)
-NEONET_MERCHANT_ID="tu-merchant-id"
-NEONET_API_KEY="tu-api-key"
-NEONET_API_SECRET="tu-api-secret"
-NEONET_ENVIRONMENT="sandbox" # o "production"
-
-# Cloudinary
-CLOUDINARY_CLOUD_NAME="tu-cloud-name"
-CLOUDINARY_API_KEY="tu-api-key"
-CLOUDINARY_API_SECRET="tu-api-secret"
-
-# Email
-SENDGRID_API_KEY="SG...."
-SENDGRID_FROM_EMAIL="noreply@conectapro.gt"
-
-# Google Maps
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY="AIza..."
-```
-
-### 3. Instalar dependencias
-```bash
-npm install
-```
-
-### 4. Configurar base de datos
-```bash
-# Ejecutar migraciones
-psql -U postgres -d conectapro -f schema.sql
-```
-
-### 5. Ejecutar en desarrollo
-```bash
-npm run dev
-```
-
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
-
----
-
 ## 🗓️ Roadmap
 
-### Fase 1: MVP (Diciembre 2024) ✅
+### Fase 1: MVP (Diciembre 2025) ✅
 - [x] Diseño de arquitectura
 - [x] Modelo de base de datos
 - [x] Documentación técnica
 - [ ] Prototipo funcional en v0.dev
 - [ ] API básica (autenticación, búsqueda, reseñas)
 
-### Fase 2: Beta Privada (Enero 2025)
+### Fase 2: Beta Privada (Enero 2026)
 - [ ] Frontend completo en Next.js
 - [ ] Sistema de mensajería
 - [ ] Integración de pagos (NeoNet)
 - [ ] Testing con 10 profesionales
 - [ ] Testing con 20 clientes
 
-### Fase 3: Lanzamiento Público (Febrero 2025)
+### Fase 3: Lanzamiento Público (Febrero 2026)
 - [ ] Deploy en producción
 - [ ] Panel administrativo
 - [ ] Sistema de notificaciones (email/SMS)
 - [ ] SEO y marketing digital
 - [ ] Lanzamiento en zona metropolitana de Guatemala
 
-### Fase 4: Expansión (Marzo-Junio 2025)
+### Fase 4: Expansión (Marzo-Junio 2026)
 - [ ] App móvil (React Native)
 - [ ] Expansión a departamentos
 - [ ] Verificación avanzada de profesionales
 - [ ] Integración con Google My Business
 - [ ] Sistema de promociones y descuentos
-
----
-
-## 🤝 Contribuir
-
-¡Las contribuciones son bienvenidas! Si deseas contribuir:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add: nueva característica'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-### Estándares de Código
-- Usar TypeScript para type safety
-- Seguir convenciones de nombres: camelCase para variables, PascalCase para componentes
-- Escribir tests para funciones críticas
-- Documentar funciones complejas
 
 ---
 
@@ -374,9 +286,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 Desarrollado como proyecto de innovación web para la Universidad da Vinci de Guatemala.
 
-- **Desarrollo**: [Tu Nombre]
-- **Instructor**: Ing. Brandon Chitay
-- **Materia**: Desarrollo Web
+- **Desarrollo**: Luis M. Quan
 
 ---
 
@@ -384,19 +294,12 @@ Desarrollado como proyecto de innovación web para la Universidad da Vinci de Gu
 
 ¿Preguntas o sugerencias? Contáctanos:
 
-- 📧 Email: info@conectapro.gt
-- 🌐 Website: [www.conectapro.gt](#) *(en construcción)*
-- 💼 LinkedIn: [ConectaPro Guatemala](#)
+- 📧 Email: primoquan@gmail.com
+- 💼 LinkedIn: [Luis Quan](https://www.linkedin.com/in/primoquan/)
 
 ---
 
-## 🙏 Agradecimientos
 
-- Universidad da Vinci de Guatemala
-- Comunidad de desarrolladores de Guatemala
-- Todos los profesionales y técnicos que inspiraron este proyecto
-
----
 
 <div align="center">
   <strong>Hecho con ❤️ en Guatemala 🇬🇹</strong>
