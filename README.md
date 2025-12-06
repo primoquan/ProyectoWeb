@@ -284,7 +284,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👥 Equipo
 
-Desarrollado como proyecto de innovación web para la Universidad da Vinci de Guatemala.
+Desarrollado como proyecto de innovación web.
 
 - **Desarrollo**: Luis M. Quan
 
