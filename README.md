@@ -232,7 +232,7 @@ GET    /api/v1/suscripciones/estado          # Estado actual
 ## 🎨 Prototipo
 
 ### Enlace al Prototipo v0
-🔗 **[Ver Prototipo Interactivo en v0.dev](#)** *(enlace pendiente)*
+🔗 **[Ver Prototipo Interactivo en v0.dev](#)** *(https://v0.app/chat/conecta-pro-landing-page-nV60H5rI4pO?b=b_fJWBvY8SVF3)*
 
 ### Capturas de Pantalla
 
