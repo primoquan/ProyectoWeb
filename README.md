@@ -234,13 +234,13 @@ GET    /api/v1/suscripciones/estado          # Estado actual
 ### Capturas de Pantalla
 
 #### Página de Inicio
-*Pendiente*
+[Pagina de inicio](screenshots/01-landing-page_01.png)
 
 #### Búsqueda de Profesionales
-*Pendiente*
+[Pagina de Busqueda](screenshots/02-busqueda.png)
 
 #### Perfil de Profesional
-*Pendiente*
+[Perfil Profesional](screenshots/03-perfil_01.png)
 
 ---
 
