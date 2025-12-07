@@ -236,6 +236,23 @@ GET    /api/v1/suscripciones/estado          # Estado actual
 ### Enlace al Prototipo v0
 🔗 **[Ver Prototipo Interactivo en v0.dev](https://v0.app/chat/conecta-pro-landing-page-nV60H5rI4pO?b=b_fJWBvY8SVF3)** 
 
+Para ver cada pagina prototipo usar /
+
+#### Página de Inicio
+/
+
+#### Página de busqueda
+/buscar
+
+#### Página de Perfil
+/perfil/[id]
+
+#### Página de Registro
+/registro
+
+#### Página de Dashboard Profesional
+/dashboard
+
 ### Capturas de Pantalla
 
 #### Página de Inicio
