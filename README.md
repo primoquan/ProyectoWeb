@@ -6,6 +6,11 @@
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)](https://www.postgresql.org/)
 
+## 🎥 Video de Presentación
+
+[![Ver Video de Presentación](https://img.shields.io/badge/▶️-Ver%20Video%20en%20YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/k9bKDhkaW2I)
+
+
 ---
 
 ## 📋 Tabla de Contenidos
